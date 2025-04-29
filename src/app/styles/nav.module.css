@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    font-size: 23px;
+}
+.navbar a{
+    margin-top: 20px;
+    padding:20px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 5px;
+background-color: #006eff;
+cursor: pointer;
+text-transform: uppercase;
+}
+@media(max-width:655px){
+    .navbar{
+        font-size: 18px;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+    .navbar a{
+        font-size: 18px;
+        padding: 14px 15px;
+        font-weight: 500;
+    }
+}

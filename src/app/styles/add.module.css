@@ -1,0 +1,38 @@
+.btn{
+    margin-top: 20px;
+    padding:20px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 5px;
+background-color: #006eff;
+cursor: pointer;
+text-transform: uppercase;
+color: white;
+}
+.containerAdd{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    background-color: black;
+    padding: 15px 20px ;
+    width: 100%;
+    color: white;
+    border: none;
+    border-left: 1PX solid #34c8f6;
+    font-size: 23px;
+}
+.headingsmall{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.addForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

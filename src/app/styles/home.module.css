@@ -1,0 +1,47 @@
+.containerMain{
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.headingsmall{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.notesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    border: 1px solid #006eff;
+    border-radius: 20px;
+    padding:    40px;
+    width: 50%;
+}
+.notestitle{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.notesdata{
+    text-transform: capitalize;
+}
+@media(max-width:655px){
+    .heading{
+        font-size: 40px;
+    }
+    .headingsmall{
+font-size: 30px;
+    }
+    .notesContainer{
+        width: 100%;
+    }
+}
